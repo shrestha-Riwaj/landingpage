@@ -1,0 +1,41 @@
+<main class="blog-categories mt-5">
+    <h1>Blog</h1>
+    <p>Blog about our different products</p>
+    <!-- blog categories navbar -->
+    <nav class="flex justify-between bg-red-500">
+        <ul class="flex gap-4 bg-gray-100 m-4 p-1">
+            <li>All</li>
+            <li>Gaming</li>
+            <li>Price</li>
+            <li>Coding</li>
+        </ul>
+        <ul class="flex gap-4 bg-gray-100 m-4 p-1">
+            <li>Sort by:</li>
+            <li>list</li>
+        </ul>
+    </nav>
+    <div class="blog-container flex flex-wrap -m-2">
+        <!-- Each section will take up one-third of the width, minus margins -->
+        <section class="gaming w-full sm:w-1/2 lg:w-1/3 p-2">
+            <div class="direction flex flex-col gap-2 items-start bg-gray-200 rounded-md relative">
+                <img class="rounded-md" src="./images/laptop1.jpg" alt="">
+                <p class="absolute top-0 left-2 text-white border-2 mt-0.5 rounded-md border-gray-300">Gaming</p>
+                <div class="time flex gap-5 text-sm text-gray-400 pl-2">
+                    <p>30 Jan 2024</p>
+                    <p>10 mins read</p>
+                </div>
+                <div class="items-center pl-2">
+                    <h2 class="font-bold">Best Gaming Laptop of 2024</h2>
+                    <p class="truncate-para pl-1">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="author flex gap-2 items-center m-1 pl-1">
+                    <div class="circle w-12 bg-black rounded-full">
+                        <img class="w-full" src="./images/mouse.png" alt="">
+                    </div>
+                    <h3>Author name</h3>
+                </div>
+            </div>
+        </section>
+        <!-- Repeat sections as needed -->
+    </div>
+</main>

@@ -15,11 +15,14 @@
 </head>
 <body class="bg-color">
     <!-- header section -->
-    <header class="bg-color flex h-14 w-full justify-between">
-        <img class="w-16" src="./images/logoo.png" alt="company-logo">
-        <div class="flex items-center border-2 border-black m-1 mr-5 rounded-lg">
-            <i class="ri-search-2-line w-5 m-1 p-1"></i>
-            <input class="bg-color p-1 outline-none" type="text" placeholder="search">
+    <header class="bg-color mb-4 flex h-14 w-full justify-between">
+        <img class="w-24 h-24" src="./images/logoo.png" alt="company-logo">
+        <div class="flex justify-center items-center mr-5 gap-4">
+            
+                <a href=""><p>Contact Us</p></a>
+            <a href=""><i class="ri-map-pin-line"></i></a>
+            <!-- <i class="ri-search-2-line w-10 m-1 p-1"></i> -->
+            <!-- <input class="bg-color p-1 outline-none" type="text" placeholder="search"> -->
             
         </div>
         
@@ -27,15 +30,16 @@
     </header>
 
     <!-- nav section -->
-    <nav class="navbar">
-        <ul class="nav-list flex list-none p-2">
+    <nav class="navbar flex justify-center items-center ">
+        <ul class="nav-list flex list-none p-2 ">
             <li class="p-2 font-bold text-xl"><a href="">Home</a></li>
             <li class="p-2 font-bold text-xl"><a href="">About</a></li>
             <li class="p-2 font-bold text-xl"><a href="">Accessories</a></li>
-            <li class="p-2 font-bold text-xl"><a href="">Laptops</a></li>
+            <li class="p-2 font-bold text-xl"><a href="./laptop.html">Laptops</a></li>
             <li class="p-2 font-bold text-xl"><a href="">Desktops</a></li>
             <li class="p-2 font-bold text-xl"><a href="">Contact US</a></li>
         </ul>
+        <i class="ri-search-2-line w-10 m-1 pl-52"></i>
     </nav>
     <!-- hero section -->
 
@@ -46,25 +50,25 @@
 
         <div class="product-container bg-color flex flex-col">
             
-            <section class="laptop-section flex flex-wrap m-2 w-full relative">
+            <section class="laptop-section flex flex-wrap gap-10 m-1 w-full relative">
                 <!-- laptops -->
                 <h1 class="heading-h1">Laptops</h1>
                 <a class="absolute top-4 right-7" href="">View All</a>
-                <div class="laptop-container relative bg-white rounded-md w-1/4 m-2 mr-5 flex flex-col items-center rounded-lg">
+                <div class="laptop-container relative bg-white w-96 rounded-md  m-1 mr-1 flex flex-col items-center rounded-lg">
                     <img class="w-full rounded-lg" src="./images/laptop1.jpg" alt="macbook">
                     <h2 class="heading-h2">MacBook M1</h2>
                     <p class="para">$Price</p>
                     <i class="ri-heart-line absolute top-0 left-2 text-4xl"></i>
                     <button class="btn">Add to Cart</button>
                 </div>
-                <div class="laptop-container relative bg-white rounded-md w-1/4 m-2 mr-5 flex flex-col items-center rounded-lg">
+                <div class="laptop-container relative bg-white rounded-md w-96 m-1 mr-1 flex flex-col items-center rounded-lg">
                     <img class="w-full rounded-lg" src="./images/laptop1.jpg" alt="macbook">
                     <h2 class="heading-h2">MacBook M1</h2>
                     <p class="para">$Price</p>
                     <i class="ri-heart-line absolute top-0 left-2 text-4xl"></i>
                     <button class="btn">Add to Cart</button>
                 </div>
-                <div class="laptop-container relative bg-white rounded-md w-1/4 m-2 mr-5 flex flex-col items-center rounded-lg">
+                <div class="laptop-container relative bg-white rounded-md w-96 m-1 mr-1 flex flex-col items-center rounded-lg">
                     <img class="w-full rounded-lg" src="./images/laptop1.jpg" alt="macbook">
                     <h2 class="heading-h2">MacBook M1</h2>
                     <p class="para">$Price</p>
@@ -164,69 +168,118 @@
             
         </section>
         <!-- blog post -->
-        <div class="blog-container h-60 w-full mt-3 bg-white">
-            <section class=" blog-section w-full bg-white ml-4 ">
+        <div class="w-full maxheight bg-white m-2">
+            <section class="flex gap-36">
                 <!-- budget deal -->
-                <div class=" bg-black w-1/2 overflow-hidden relative">
-                    <!-- <div class="h-1/2">
-                        <img src="./images/budget_laptop.png" alt="">
+                <div class="w-1/3 h-1/2 m-3 relative rounded">
+                    <img src="./images/budget_laptop.png" alt="">
+                    <div class="w-4/5 h-5/6 rounded-md bg-gray-200 absolute left-48 bottom-6 m-2 p-2 flex flex-col items-center overflow-hidden z-10">
+                        <h2 class="font-bold text-2xl ">Title</h2>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Eaque, velit.
+
+                        </p>
+                        <a class="text-blue-500" href="">Read More...</a>
                     </div>
-                    <div class="w-1/2 bg-blue-700 p-2 absolute bottom-7">
-                        <h2>Blog title</h2>
-                        <p>Lorem ipsum dolor sit 
-                            amet consectetur adipisicing elit.
-                             Corporis, pariatur.</p>
-                        
-                    </div> -->
                 </div>
+                <div class="w-1/3 h-1/2 m-3 relative rounded">
+                    <img src="./images/budget_laptop.png" alt="">
+                    <div class="w-4/5 h-5/6 rounded-md bg-gray-200 absolute left-64 bottom-6 m-2 p-2 flex flex-col items-center overflow-hidden">
+                        <h2 class="font-bold text-2xl ">Title</h2>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Eaque, velit.
+
+                        </p>
+                        <a class="text-blue-500" href="">Read More...</a>
+                    </div>
+                </div>
+               
             </section>
         </div>
-        <hr>
-        <!-- footer section -->
-        <footer class="footer-container">
-            <div class="all-footer-content ml-4 flex flex-wrap items-center justify-between gap-1">
-                <div class="footer-logo w-full">
-                    <img class="w-16" src="./images/logoo.png" alt="company-logo">
-                </div>
-                <div class="contact-us">
-                    <h2 class="para">Company Name</h2>
-                    <p>abc@gmail.com</p>
-                    <p>Putalisadak, Kathmandu</p>
-                    <p>9841000000</p>
-                </div>
-                <div class="about-part">
-                    <h2 class="para">About Company</h2>
-                    <p>Our Company</p>
-                    <p>Product/Services</p>
-                    <p>Our Team</p>
-                    <p>Blog</p>
-                </div>
-                <div class="other-things">
-                    <h2 class="para">Other Thing</h2>
-                    <p>Privacy & Policy</p>
-                    <p>Terms and Conditions</p>
-                    <p>Return & Refund Policy</p>
-                </div>
-                <div class="newsletter mr-3">
-                    <h2 class="para">Newsletter</h2>
-                    <p>Subscribe to get updates on our latest products.</p>
-                    <div class="email-box flex items-center border-2 rounded-lg p-1 border-black justify-between">
-                        <input class="outline-none footer-container p-1" type="text" placeholder="Enter your email">
-                        <button class="btn border-none bg-red-600">Subscribe</button>
-                    </div>
-                    <div class="icons">
-                        <a href="">Facebook</a>
-                        <a href="">Instagram</a>
-                        <a href="">Twitter</a>
-                        <a href="">YouTube</a>
-                    </div>
-                </div>
+        
+    </main>
+    <!-- footer section -->
+    <footer class="footer-section text-white flex flex-col">
+        <div class="subscribe flex flex-col items-center pt-4 h-48 gap-4">
+            <h2 class="font-bold">
+                STAY UP TO DATE ON EVERYTHING GENERATION NEPAL 
+            </h2>
+            <div class=" flex items-center gap-2 ">
+                <input class="p-0.5 rounded" type="email" name="email" id="email" placeholder="Email">
+            <button class="rounded border-2 border-red-600 bg-red-600">SUBSCRIBE</button>
             </div>
             
-        </footer>
-        <hr class="m-10 bg-black">
-        <p class="para m-2 text-center">Generation Nepal &copy;2024. All rights reserved.</p>
-        <hr class="m-10 bg-black">
-    </main>
+        </div>
+        <div class="footer-store flex p-2 gap-10 justify-evenly pt-4">
+            <section class="section-first flex flex-col gap-4">
+                <h3 class="font-bold">OUR COMPANY</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Our Team</li>
+                    <li>Partners</li>
+
+                </ul>
+            </section>
+            <section class="section-second flex flex-col gap-4">
+                <h3 class="font-bold">PRODUCTS</h3>
+                <ul>
+                    <li>Laptops</li>
+                    <li>Desktops</li>
+                    <li>Computer Devices</li>
+                    <li>HeadPhones</li>
+                    <li>Gaming Chair</li>
+                    <li>Office Supplies</li>
+                </ul>
+            </section>
+            <section class="section-third flex flex-col gap-4">
+                <h3 class="font-bold">SOCIAL</h3>
+                <ul>
+                    <li class="flex gap-2">
+                        <i class="ri-instagram-line"></i>
+                        <a href="">Instagram</a>
+                    </li>
+                    <li class="flex gap-2">
+                        <i class="ri-facebook-circle-fill"></i>
+                        <a href="">FaceBook</a>
+                    </li>
+                    <li class="flex gap-2">
+                        <i class="ri-twitter-x-line"></i>
+                        <a href="">Twitter</a>
+                    </li>
+                    <li class="flex gap-2">
+                        <i class="ri-youtube-fill"></i>
+                        <a href="">YouTube</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section-fourth flex flex-col gap-4">
+                <h3 class="font-bold">SERVICE</h3>
+                <ul>
+                    <li>Find Our Store</li>
+                    <li>Sitemap</li>
+                    <li>FAQ</li>
+                    <li>Return Policy</li>
+                    <li>Warranty</li>
+                    <li>Contact Us</li>
+                </ul>
+            </section>
+        </div>
+        <div class="footer-end flex flex-col ml-3 mr-3 mt-20 gap-5 pb-4 items-center">
+            <p>All content &copy; 2024 Generation Nepal. All rights reserved.</p>
+            <ul class="flex gap-2">
+                <li>
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="">Terms and Condition</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="">Careers</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

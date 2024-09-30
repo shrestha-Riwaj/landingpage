@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Section</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+     rel="stylesheet">
+     <link rel="stylesheet" href="../style.css">
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <main>
+        <!-- Blog Section -->
+        <div class="maxheight bg-red-500 w-full overflow-hidden relative">
+            <!-- Blog Hero Section -->
+            <img class="w-full h-full" src="./images/gaming.jpg" alt="">
+            
+            <div class="absolute bottom-4 flex w-full text-red-600">
+                <div class="flex flex-col w-1/2">
+                    <h1 class="font-normal text-md md:font-bold md:text-2xl pl-1">Tech Trends: What's New at Generation Nepal</h1>
+                    <p class="text-md md:text-xl text-start pl-1">
+                    At Generation Nepal, we're always on the pulse of the latest
+                    technological advancements. In this edition of Tech Trends,
+                    we're excited to showcase the newest arrivals and innovations
+                    in our store. From cutting-edge laptops and powerful desktops to
+                    the latest in computer accessories, we’ve curated a selection of
+                    tech that combines performance with style.
+                    </p>
+                </div>
+                <div class="flex w-1/2 justify-end items-end gap-2 p-2 mr-12">
+                    <div class="flex flex-col border-l-2 p-1 border-white">
+                        <h3>Written by</h3>
+                        <h2>Amelie Laurent</h2>
+                    </div>
+                    <div class="flex-col border-l-2 p-1 border-white">
+                        <h3>Published on</h3>
+                        <h2>12 April 2024</h2>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div class="grid grid-cols-3 mt-10 ml-3 mr-2 gap-5">
+            <!-- Small Section for Blog -->
+            <div class="flex flex-col gap-1 border-black border-2 p-1">
+                <div class="relative">
+                    <img src="./images/laptop2.png" alt="">
+                    <h1 class="font-bold text-2xl">Conversations with Mark & Co.</h1>
+                    <p class="truncate-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis architecto laborum unde debitis saepe.</p>
+                    <div class="flex gap-2 ">
+                        <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Design</a>
+                        <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Research</a>
+                        <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Interviews</a>
+                    </div>
+                    <a class="absolute bottom-0 right-2" href=""><i class="ri-arrow-right-up-line text-2xl font-bold"></i></a>
+                </div>  
+            </div>
+            <div class="flex flex-col gap-1 bg-red-400 border-black border-2 p-1">
+                <div class="relative h-full">
+                    <img src="./images/laptop2.png" alt="">
+                    <h1 class="font-normal text-md md:font-bold md:text-2xl">Conversations with Mark & Co.</h1>
+                    <p class="truncate-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis architecto laborum unde debitis saepe.</p>
+                    <div class="hidden md:flex gap-2 ">
+                        <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Design</a>
+                        <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Research</a>
+                        <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Interviews</a>
+                    </div>
+                    <a class="absolute bottom-0 right-1 md:bottom-1 md:right-2" href=""><i class="ri-arrow-right-up-line text-2xl font-bold"></i></a>
+                </div>  
+            </div>
+            <div class="flex flex-col gap-1 border-black border-2 p-1">
+                <div class="relative">
+                    <img src="./images/laptop2.png" alt="">
+                    <h1 class="font-bold text-2xl">Conversations with Mark & Co.</h1>
+                    <p class="truncate-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis architecto laborum unde debitis saepe.</p>
+                    <div class="flex gap-2 ">
+                        <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Design</a>
+                        <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Research</a>
+                        <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Interviews</a>
+                    </div>
+                    <a class="absolute bottom-1 right-2" href=""><i class="ri-arrow-right-up-line text-2xl font-bold"></i></a>
+                </div>  
+            </div>
+        </div>
+        <!-- Recent Blog Posts -->
+        <div class="grid grid-cols-2 gap-2">
+            <h1 class=" col-span-full font-bold text-2xl pl-2">Recent Blog Posts</h1>
+            <div class=" flex flex-col p-2">
+                <img  src="./images/top-deal.png" alt="">
+                <div class="flex gap-5 px-3 justify-between font-light">
+                    <p>20 June 2024</p>
+                    <p class=" text-right">20 min read</p>
+                </div>
+                <h2 class="font-bold text-xl">Generation Nepal most sold laptop</h2>
+                
+                <p class="truncate-para mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis eveniet at aliquam.
+                </p>
+                <div class="flex gap-2 mb-1">
+                    <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Design</a>
+                    <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Research</a>
+                    <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Interviews</a>
+                </div>
+                <div class="flex items-center gap-4 mt-1">
+                    <img class="rounded-full bg-white border-2 w-11 h-11 flex items-center justify-center" src="./images/storage.jpg" alt="">
+                    <h2>Blog Writer</h2>
+                </div>
+            </div>
+            <div class=" flex flex-col p-2">
+                <img  src="./images/top-deal.png" alt="">
+                <div class="flex gap-5 px-3 justify-between font-light">
+                    <p>20 June 2024</p>
+                    <p class=" text-right">20 min read</p>
+                </div>
+                <h2 class="font-bold text-xl">Generation Nepal most sold laptop</h2>
+                
+                <p class="truncate-para mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis eveniet at aliquam.
+                </p>
+                <div class="flex gap-2 mb-1">
+                    <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Design</a>
+                    <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Research</a>
+                    <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Interviews</a>
+                </div>
+                <div class="flex items-center gap-4 mt-1">
+                    <img class="rounded-full bg-white border-2 w-11 h-11 flex items-center justify-center" src="./images/storage.jpg" alt="">
+                    <h2>Blog Writer</h2>
+                </div>
+            </div>
+            <div class=" flex flex-col p-2">
+                <img  src="./images/top-deal.png" alt="">
+                <div class="flex gap-5 px-3 justify-between font-light">
+                    <p>20 June 2024</p>
+                    <p class=" text-right">20 min read</p>
+                </div>
+                <h2 class="font-bold text-xl">Generation Nepal most sold laptop</h2>
+                
+                <p class="truncate-para mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis eveniet at aliquam.
+                </p>
+                <div class="flex gap-2 mb-1">
+                    <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Design</a>
+                    <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Research</a>
+                    <a class="border-2 border-black p-0.5 rounded-lg hover:text-blue-500 hover:transition-all duration-100 ease-in hover:shadow-lg hover:border-b-2 hover:border-blue-500" href="">Interviews</a>
+                </div>
+                <div class="flex items-center gap-4 mt-1">
+                    <img class="rounded-full bg-white border-2 w-11 h-11 flex items-center justify-center" src="./images/storage.jpg" alt="">
+                    <h2>Blog Writer</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
